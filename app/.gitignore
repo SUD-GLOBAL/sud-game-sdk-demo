@@ -1,0 +1,7 @@
+/build/
+/.gradle/
+/demo.local.properties
+/libs/*.aar
+/*.jks
+/*.keystore
+!/libs/sud-gi-white.aar

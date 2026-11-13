@@ -1,0 +1,23 @@
+import groovy.json.JsonOutput
+
+def demoConfig = new Properties()
+def localConfig = file('demo.local.properties')
+if (localConfig.isFile()) {
+    localConfig.withReader('UTF-8') { demoConfig.load(it) }
+}
+
+android {
+    namespace = 'global.sud.gi.white.demo'
+    defaultConfig {
+        applicationId = 'global.sud.gi.white.demo'
+        versionCode = 1
+        versionName = '1.0.0'
+        manifestPlaceholders['SUDGIWhiteApp'] = 'whitedemo'
+        buildConfigField('String', 'SUD_WHITE_DEMO_APP_ID', JsonOutput.toJson(demoConfig.getProperty('appId', '')))
+        buildConfigField('String', 'SUD_WHITE_DEMO_APP_KEY', JsonOutput.toJson(demoConfig.getProperty('appKey', '')))
+    }
+    buildFeatures {
+        buildConfig = true
+        dataBinding = true
+    }
+}

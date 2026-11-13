@@ -1,0 +1,28 @@
+{
+    "commit": "8f01da3891d49bdbe01096f66ca4baae07ba2b70",
+    "buildVerified": false,
+    "files": {
+        ".gitignore": "c1a9181a2f33792e6d3d11b50667825b66890bb558b431b112cdc478610c64b6",
+        "README.md": "8590c2bb1bf3042f64b5d4a62ab30d4d3968f97e72a28cf9ac2dfdcfbafb3a6a",
+        "app/.gitignore": "34f02da34cb435186226c27a826b174a236f7701ddb7c43214812ae366c30302",
+        "app/build.gradle.kts": "03f8c1c6d10edd350ac64fac7860437f97fd3e1dfdf785a28ede850c49a69b5f",
+        "app/demo.gradle": "e0f626cac4f8d12058a42fbd5331635c1283f568be00c1faf0e7d1247b9813b2",
+        "app/demo.local.properties.example": "fd23bf823d740056898bbac176aad5c26140046aa415b174ea3e5ce3dedcc1e2",
+        "app/libs/sud-gi-white.aar": "03d5d1282a48d9a23c69d5d7b1bf89a839ac3dbbde91a83afc8bee41a3f2c605",
+        "app/proguard-rules.pro": "366977814a535793287d222546c61c66d32f229997fb8578dae4618160866e72",
+        "app/src/main/AndroidManifest.xml": "9d1457dcf9595b82598cf76b769929f5277eb0d95faf0df8d7ca8761453dc628",
+        "app/src/main/java/global/sud/gi/white/demo/SUDWhiteDemoApplication.java": "f47b048f7e52913b4ff2cd93108a1f5e6627133a611e3f7223758675057bc976",
+        "app/src/main/res/drawable/sud_white_demo_ic_launcher.xml": "16eb89d71bb33512bc9002691f3973aa9a27a7ded18568ba3042d1d207eef324",
+        "app/src/main/res/values/strings.xml": "e754dfe8ad85e5a5fdc0fa73b47a7450fe71e3e4168bcffeffa3b03c944bc618",
+        "app/src/main/res/values/styles.xml": "9db72d4fd758ee852ce889fe10c32d8dba359b257140c94748b9f36c5762e9a0",
+        "app/src/main/res/values/sud_gi_white_config.xml": "6914bf76e8895a863f7ca429fa882973299e55711755151080d264eebd3596b5",
+        "app/src/main/res/xml/sud_white_demo_data_extraction_rules.xml": "c3b388e67c5a1528c3cd13140b82a9cea5fd5cbb8cc83bc3098620dcefc974d2",
+        "build.gradle.kts": "6cabee94aac88993acad319e7195667e26033f4bd00d157e1aeac7c1ca9710ce",
+        "gradle.properties": "9e5ba386989a6ac20c56c7fa90d80efcf1033db5d02ce7d303a4109d2ff4efe2",
+        "gradle/wrapper/gradle-wrapper.jar": "55243ef57851f12b070ad14f7f5bb8302daceeebc5bce5ece5fa6edb23e1145c",
+        "gradle/wrapper/gradle-wrapper.properties": "3a4742b473c4df3b8a0eea96e4abe81cda7435f4883046c975c85893ebd23d01",
+        "gradlew": "aed171fb114f82e6eaea4970a245a200e0582a7dcc8ec0891ca41b6e4a62b754",
+        "gradlew.bat": "9ca26d733ada3a45f27b2151288f54e75c9f95b287d1f82ef942ec5cc2d4f006",
+        "settings.gradle.kts": "7e71d56b12f0dfa36ed4bdf3cfba8ed1ef257588ce9089fedba54f5644a1d22e"
+    }
+}

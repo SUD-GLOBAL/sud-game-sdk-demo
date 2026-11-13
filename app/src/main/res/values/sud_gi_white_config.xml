@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:keep="@array/sud_gi_white_login_providers,@string/sud_nubia_login_environment,@string/sud_nubia_login_app_id,@string/sud_nubia_login_app_key,@string/sud_nubia_login_zte_app_id,@string/sud_nubia_login_redirect_uri,@string/sud_gi_white_payment_wechat_app_id">
+    <!-- 覆盖 White 的公开资源契约，名称必须与 AAR 一致。 -->
+    <string-array
+        name="sud_gi_white_login_providers"
+        translatable="false"
+        tools:ignore="ResourceName">
+        <item>default</item>
+    </string-array>
+    <string name="sud_nubia_login_environment" translatable="false" tools:ignore="ResourceName">RELEASE</string>
+    <string name="sud_nubia_login_app_id" translatable="false" tools:ignore="ResourceName"></string>
+    <string name="sud_nubia_login_app_key" translatable="false" tools:ignore="ResourceName"></string>
+    <string name="sud_nubia_login_zte_app_id" translatable="false" tools:ignore="ResourceName"></string>
+    <string name="sud_nubia_login_redirect_uri" translatable="false" tools:ignore="ResourceName"></string>
+    <string name="sud_gi_white_payment_wechat_app_id" translatable="false" tools:ignore="ResourceName"></string>
+</resources>

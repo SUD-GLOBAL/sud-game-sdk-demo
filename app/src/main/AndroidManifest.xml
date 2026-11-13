@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:name=".SUDWhiteDemoApplication"
+        android:allowBackup="false"
+        android:fullBackupContent="false"
+        android:dataExtractionRules="@xml/sud_white_demo_data_extraction_rules"
+        android:icon="@drawable/sud_white_demo_ic_launcher"
+        android:supportsRtl="true"
+        android:label="@string/sud_white_demo_app_name"
+        android:theme="@style/sud_white_demo_theme"
+        tools:replace="android:allowBackup,android:label">
+        <activity
+            android:name="global.sud.gi.white.core.entry.SUDGIWhiteHomeEntryActivity"
+            android:exported="true"
+            android:theme="@style/sud_white_demo_starting_theme"
+            tools:replace="android:exported,android:theme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

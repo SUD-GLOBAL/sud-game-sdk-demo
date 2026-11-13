@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 复用 SDK Lab 已有的通用演示图标。 -->
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <path
+        android:fillColor="#3455DB"
+        android:pathData="M0,0h48v48h-48z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M24,10L39,18L24,26L9,18z" />
+    <path
+        android:fillColor="#CCD5FF"
+        android:pathData="M9,24L24,32L39,24L39,29L24,37L9,29z" />
+</vector>
